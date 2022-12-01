@@ -1,0 +1,95 @@
+body{
+    font-size: 16px;
+    padding: 60px 6%;
+    letter-spacing: 1px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    
+    color: rgb(71, 71, 71);
+}
+.title-underline{
+    display: block;
+}
+
+.work-pic{
+    margin-top: 60px;
+    /* height: 341px; */
+    padding-bottom: 56.25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.work-name{
+    margin-top: 10px;
+}
+.subtitle{
+    font-size: 13px;
+}
+
+.mr-20{
+    margin-right: 20px;
+}
+.mr-b-60{
+    margin-bottom: 60px;
+}
+.mr-b-16{
+    margin-bottom: 16px;
+}
+.category{
+    margin-top: 90px;
+    font-size: 18px;
+}
+.footer{
+    margin-top: 120px;
+}
+.contact{
+    font-size: 14px;
+}
+.contact-info{
+    display: inline-block;
+    margin-right: 50px;
+}
+.me{
+    width: 74%;
+    max-width: 320px;
+}
+.me-info{
+    font-size: 15px;
+    margin-top: 40px;
+    line-height: 1.8;
+}
+.experience{
+    font-size: 15px; margin-top: 30px;
+}
+.date{
+    width: 150px;
+    margin-right: 24px;
+    display: inline-block;
+}
+.design-b-title{
+    margin-top: 60px;
+    margin-bottom: 14px;
+}
+.type{
+    color: #a8a8a8;
+    display: inline-block;
+    margin-right: 12px;
+}
+.container{
+    font-size: 15px;
+}
+.explain-word{
+    line-height: 2;
+}
+.explain-title{
+    font-weight: 600;
+    font-size: 17px;
+}
+.pattern{
+    margin-top: 16%; margin-bottom: 16%; width: 70%; display: block; margin-left: auto; margin-right: auto;
+    max-width: 500px;
+}
