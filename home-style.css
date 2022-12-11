@@ -70,7 +70,7 @@ a:hover {
 
 .work-pic:hover{
     transform: translateY(-5px);
-    box-shadow: 2px 5px 14px rgba(37, 37, 37, 0.168);
+    box-shadow: 2px 5px 14px rgba(37, 37, 37, 0.23);
 }
 
 .work-name {

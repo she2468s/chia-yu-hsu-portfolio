@@ -16,7 +16,7 @@
 <body>
     <!-- navbar -->
 
-    <nav class="navbar fixed-top navbar-expand-lg " style="padding: 8px 6%; background-color: white;">
+    <nav class="navbar fixed-top navbar-expand-lg " id="navbar-example2" style="padding: 8px 6%; background-color: white;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">CHIA YU HSU<br>DESIGN PORTFOLIO</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -25,9 +25,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="justify-content: flex-end;">
                 <div class="navbar-nav">
-                    <a class="nav-link mr-20" href="#">Website & UI/UX</a>
-                    <a class="nav-link mr-20" href="#">Visual & Graphic</a>
-                    <a class="nav-link mr-20" href="#">Other Works</a>
+                    <a class="nav-link mr-20" href="#scrollspyUI">Website & UI/UX</a>
+                    <a class="nav-link mr-20" href="#scrollspyGraphic">Visual & Graphic</a>
+                    <a class="nav-link mr-20" href="#scrollspyOthers">Other Works</a>
                     <a class="nav-link" href="#">About</a>
                 </div>
             </div>
@@ -36,9 +36,9 @@
 
     <!-- navbar End -->
 
-    <div class="container">
+    <div class="container" data-bs-spy="scroll" data-bs-target="#navbar-example2">
         <!-- Website & UI/UX -->
-        <div class="category">
+        <div class="category" id="scrollspyUI">
             <span>Website & UI/UX</span>
             <img class="title-underline" src="./img/title-underline.svg" alt="">
         </div>
@@ -103,14 +103,14 @@
             </div>
         </div>
         <!-- Visual & Graphic -->
-        <div class="category">
+        <div class="category" id="scrollspyGraphic">
             <span>Visual & Graphic</span>
             <img class="title-underline" src="./img/title-underline.svg" alt="">
         </div>
         <div class="row">
             <div class="col-lg-6 ">
                 <a href="">
-                    <div class="work-pic" style="background-image: url(./img/health-exhibition.png); margin-top: 40px;">
+                    <div class="work-pic" style="background-image: url(./img/thp-mockup1.png); margin-top: 40px;">
                     </div>
                     <div class="work-name">
                         <div>健康科技生活館</div>
@@ -140,7 +140,7 @@
             </div>
         </div>
         <!-- Other Works -->
-        <div class="category">
+        <div class="category" id="scrollspyOthers">
             <span>Other Works</span>
             <img class="title-underline" src="./img/title-underline.svg" alt="">
         </div>
