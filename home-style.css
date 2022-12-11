@@ -23,22 +23,22 @@ a:hover {
 .navbar .navbar-nav a::after {
     width: 0%;
     transition-duration: 0.3s;
-    background-color: black;
+    background-color: rgb(99, 99, 99);
     content: '';
     height: 1px;
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 0.3em;
 }
 
 .navbar .navbar-nav a:hover::after {
-    background-color: black;
+    background-color: rgb(99, 99, 99);
     content: '';
     width: 100%;
     height: 1px;
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 0.3em;
     /* animation-name: nav-animate;
     animation-duration: 0.3s; */
 
@@ -65,6 +65,12 @@ a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    transition: ease-out 0.3s;
+}
+
+.work-pic:hover{
+    transform: translateY(-5px);
+    box-shadow: 2px 5px 14px rgba(37, 37, 37, 0.168);
 }
 
 .work-name {
