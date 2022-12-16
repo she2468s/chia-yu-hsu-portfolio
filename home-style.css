@@ -3,7 +3,12 @@ body {
     /* padding: 60px 6%; */
     letter-spacing: 1px;
 }
-
+.my-nav{
+    padding: 4px 4%; background-color: rgba(255, 255, 255, 0.8);
+}
+.navbar-brand{
+    font-size: 16px;
+}
 .vh-100{
     height: 100vh;
     padding-top: 90px;
@@ -30,7 +35,7 @@ a:hover {
     transition-duration: 0.3s;
     background-color: #0A4DFA;
     content: '';
-    height: 1.5px;
+    height: 2px;
     position: absolute;
     left: 0;
     bottom: 0.3em;
@@ -40,7 +45,7 @@ a:hover {
     background-color: #0A4DFA;
     content: '';
     width: 100%;
-    height: 1.5px;
+    height: 2px;
     position: absolute;
     left: 0;
     bottom: 0.3em;
@@ -61,6 +66,8 @@ a:hover {
 
 .title-underline {
     display: block;
+    max-width: 336px;
+   
 }
 
 .work-pic {
@@ -99,7 +106,7 @@ a:hover {
 }
 
 .category {
-    margin-top: 90px;
+    margin-top: 80px;
     font-size: 18px;
 }
 
@@ -119,6 +126,8 @@ a:hover {
 .me {
     width: 74%;
     max-width: 320px;
+    border-radius: 50%;
+    margin-left: 10%;
 }
 
 .me-info {
