@@ -3,6 +3,10 @@ body {
     /* padding: 60px 6%; */
     letter-spacing: 1px;
 }
+.home-banner{
+    margin-top: 200px; margin-bottom: 200px;
+    display: flex;
+}
 .my-nav{
     padding: 4px 4%; background-color: rgba(255, 255, 255, 0.8);
 }
