@@ -211,3 +211,13 @@ a:hover {
     margin-right: auto;
     max-width: 900px;
 }
+
+
+.lazy-block {
+    transform: translateY(100px);
+    opacity: 0;
+}
+
+.my-duration {
+    transition-duration: 2s;
+}
