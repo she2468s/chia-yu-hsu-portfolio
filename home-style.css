@@ -213,7 +213,7 @@ a:hover {
 }
 
 .lazy-block {
-    transform: translateY(100px);
+    transform: translateY(200px);
     opacity: 0;
 }
 
