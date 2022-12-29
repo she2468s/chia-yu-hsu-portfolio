@@ -130,6 +130,19 @@ a:hover {
     margin-top: 80px;
     font-size: 18px;
 }
+.category-home {
+    margin-top: 100px;
+    font-size: 20px;
+    width: 240px; 
+   font-weight: 500;
+   border-bottom: 3px solid #0A4DFA; 
+   line-height: 0.1em;
+}
+
+.category-home span{
+    background-color: white;
+    padding-right: 6px;
+}
 
 .footer {
     margin-top: 120px;
@@ -213,7 +226,7 @@ a:hover {
 }
 
 .lazy-block {
-    transform: translateY(200px);
+    transform: translateY(140px);
     opacity: 0;
 }
 
