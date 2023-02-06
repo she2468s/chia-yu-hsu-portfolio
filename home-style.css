@@ -121,10 +121,12 @@ a:hover {
 
 .work-name {
     margin-top: 10px;
+    font-weight: 400;
 }
 
 .subtitle {
     font-size: 13px;
+    font-weight: 300;
 }
 
 .mr-20 {
@@ -157,8 +159,21 @@ a:hover {
     padding-right: 6px;
 }
 
+.switch-project{
+    margin-top: 100px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.next-project{
+    float: right;
+    text-align: right;
+}
+
 .footer {
-    margin-top: 120px;
     border-top: 0.5px solid black;
     padding-top: 30px;
 }
@@ -217,7 +232,7 @@ a:hover {
 }
 
 .explain-title {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 17px;
 }
 
